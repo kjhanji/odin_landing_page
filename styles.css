@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+
+    background-color: #1f2937;
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.logo {
+    align-self: flex-start;
+}
+
+.right-links {
+    display: flex;
+    justify-content: space-between;
+
+    gap :32px;
+
+    margin-right: 50px;
+    margin-bottom: 100px;
+
+}
+
+.head-content {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    color: white;
+}
+
+
+.sign-up {
+    flex-grow: 0;
+}

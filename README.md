@@ -2,7 +2,9 @@ Here I will be creating a landing page for the odin project. This page will be a
 
 All the photo credits needed will be available below.
 
-Apple logo created by pixel perfect flaticon.
+
+<a href="https://www.flaticon.com/free-icons/brand" title="brand icons">Brand icons created by Freepik - Flaticon</a>
+
 Airpod Max Photo by Semeon Hrozian on Unsplash
 <a href="https://www.flaticon.com/free-icons/battery" title="battery icons">Battery icons created by Freepik - Flaticon</a>
 
