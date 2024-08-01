@@ -25,7 +25,10 @@ body {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    padding: 12px;
+    padding: 12px -4px 12px 12px;
+
+    border-top: 12px solid #1f2937;
+
 }
 
 .logo {
@@ -83,21 +86,104 @@ body {
 }
 
 .section-two {
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 16px;
+    gap: 36px;
+    height: 400px;
+
 }
 
 .imgs {
     display: flex;
+    justify-content: center;
+    gap :72px;
+   
+}
 
+.title-two {
+    font-size: 36px;
+    font-weight: 900;
+    font-family: "Hero Secondary text", sans-serif;;
 }
 
 .img {
     display: flex;
     flex-direction: column;
+    width: 150px;
+    height: 150px;
     align-items: center;
-
-    max-width: 0px;
+    gap: 8px;
 }
 
+.img img {
+    border: 5px solid #3882F6;
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    border-radius: 12px;
+
+    /* changing these values makes the img within the div the same size as the div making it adjust to the specific width and height */
+}
+
+.quote {
+
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+
+    font-family: "light italic";
+    gap: 24px;
+}
+
+.quote span {
+    font-size: 36px;
+    color:#1f2937;
+    text-align: center;
+
+}
+
+.quote div {
+    font-size: 20px;
+    font-weight: 900;
+    text-align:end;
+    margin-right: 75px;
+}
+
+.pop-up {
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding: 64px 200px;
+    color: white;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 64px;
+    justify-items: center;
+}
+
+.text-one {
+    font-weight: 900;
+}
+
+.text-one, .text-two {
+    font-size: 24px;
+}
+
+.sign-up.bigger {
+    border: 1px solid white;
+    align-self: center;    
+}
