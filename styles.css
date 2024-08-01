@@ -51,6 +51,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     padding: 100px;
+
 }
 
 .left-content {
@@ -62,6 +63,15 @@ body {
     margin-right: 100px;
     color: white;
 }
+
+
+img.airpods {
+    border-radius: 20px;
+    width: 500px;
+    height: auto;
+    box-shadow: 1px 1px 5px #e5e7eb;
+}
+
 
 .title {
     font-weight: 900;
@@ -186,4 +196,13 @@ body {
 .sign-up.bigger {
     border: 1px solid white;
     align-self: center;    
+}
+
+.credit {
+    background-color: #1f2937;
+    display: flex;
+
+    justify-content: center;
+    padding: 24px;
+    color: white;
 }
